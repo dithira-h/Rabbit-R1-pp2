@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: #000000;
+
+}
+
+.animatedlogo1 img{
+  height: 80px;
+  width: 80px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1{
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 70px;
+  text-align: center;
+  display: block;
+  color: orangered;
+  position: center;
+
+  
+}
+p{
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  color: orangered;
+  position: center;
+}
+
+section.productimg img{
+  animation: blink 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #ff773d }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink{ 
+   0%{ 
+     opacity: 0.2; 
+   } 
+   50%{ 
+     opacity: 0.8; 
+   } 
+   100%{ 
+     opacity: 0.2; 
+   } 
+ } 
+
+section.context p{
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 10px;
+  text-align: center;
+  display: flex;
+  padding-top: 50px;
+  margin-left: 400px;
+  margin-right: 400px;
+  color: whitesmoke;
+  position: center;
+
+}
+
+section.t1 h1{
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  display: block;
+  color: white;
+  position: center;
+  animation: fadeIn 7s;
+}
+
+section.productimg img{
+  width: 280px;
+  height: 214px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 8px 8px white inset;
+}
+
+.learnmore a{
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  text-decoration: none;
+  font-weight: 700;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  color: orangered;
+  position: center;
+}
+
+table {
+  font-family: "Space Grotesk", sans-serif;
+  border-collapse: collapse;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+td, th {
+  color: #c2c2c2;
+  text-align: center;
+  padding: 8px;
+  font-weight: 200;
+}
+
+tr:nth-child(even) {
+  background-color: #000000;
+}
+
+td:hover{
+  border-radius: 100px;
+  border: 1px solid orangered;
+}

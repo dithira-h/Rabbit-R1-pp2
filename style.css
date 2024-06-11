@@ -7,8 +7,8 @@ html {
 
 body{
   background-color: #000000;
-
 }
+
 
 .animatedlogo1 img{
   height: 80px;
@@ -151,4 +151,46 @@ tr:nth-child(even) {
 td:hover{
   border-radius: 100px;
   border: 1px solid orangered;
+}
+
+
+ul{
+  background-color: #000000;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  padding-right: 100px;
+  padding-left: 100px;
+  margin: none;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+
+}
+
+a:link {
+  color: #FFF7F1;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #FFF7F1;
+}
+
+section.docpng img{
+  width: 90%;
+  display: flex;
+  border:solid;
+  border-width: 4px;
+  border-color: #b3b3b3;
+  border-radius: 2px;
+  margin-bottom: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.docpng p{
+  color: white;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 20px;
+  padding-bottom: 10px;
 }

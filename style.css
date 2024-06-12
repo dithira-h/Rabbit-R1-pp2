@@ -111,6 +111,7 @@ section.t1 h1{
 }
 
 section.t1 h1:hover{
+  color: orangered;
   animation: blur 1s ease-in-out;
 }
 

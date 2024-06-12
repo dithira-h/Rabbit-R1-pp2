@@ -149,7 +149,8 @@ tr:nth-child(even) {
 }
 
 td:hover{
-  border-radius: 100px;
+  transition: all .3s ease-in-out;
+  font-size: 15px;
   border: 1px solid orangered;
 }
 

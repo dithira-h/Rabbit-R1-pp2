@@ -43,6 +43,10 @@ p{
   position: center;
 }
 
+p:hover{
+  animation: blur 0.2s ease-out;
+}
+
 section.productimg img{
   animation: blink 5s;
   animation-iteration-count: infinite;
@@ -106,6 +110,10 @@ section.t1 h1{
   animation: fadeIn 7s;
 }
 
+section.t1 h1:hover{
+  animation: blur 1s ease-in-out;
+}
+
 section.productimg img{
   width: 280px;
   height: 214px;
@@ -132,7 +140,6 @@ section.productimg img{
 
 table {
   font-family: "Space Grotesk", sans-serif;
-  border-collapse: collapse;
   padding-bottom: 20px;
   width: 100%;
 }
@@ -148,8 +155,22 @@ tr:nth-child(even) {
   background-color: #000000;
 }
 
+@keyframes blur{
+  0%{
+    filter: blur(0px);
+  }
+  50%{
+    filter: blur(4px);
+  }
+  100%{
+    filter: blur(0px);
+  }
+}
+
 td:hover{
+  animation: blur 0.2s;
   transition: all .3s ease-in-out;
+  border-radius: 10px;
   font-size: 15px;
   border: 1px solid orangered;
 }
@@ -165,7 +186,10 @@ ul{
   display: flex;
   justify-content: space-between;
   list-style: none;
+}
 
+ul:hover{
+  animation: blur 0.2s ease-out;
 }
 
 a:link {
